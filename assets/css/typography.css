@@ -69,3 +69,11 @@ nav.navigation a:hover {
     scale: 1.1;
   }
 }
+
+.fruits li{
+  list-style: none;
+}
+
+.fruits li::before {
+  content: '\2680';
+}
